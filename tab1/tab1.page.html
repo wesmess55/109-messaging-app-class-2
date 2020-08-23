@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title color="primary">
+      My Wall
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light" [fullscreen]="true">
+  <ion-button color="secondary">Test</ion-button>
+  <ul>
+    <li *ngFor="let p of postToDisplay">{{ p.message }}</li>
+  </ul>
+ 
+  
+  
+  
+  
+</ion-content>
